@@ -3,8 +3,7 @@
 
 void main(){
 int i=10;
-do
-{
+do{
 	printf("I love math\n");
 	i--;
 } while (i!=0);

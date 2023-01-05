@@ -18,9 +18,7 @@ case 1:
 case 0:
 	printf("n1 is not smaller than n2\n");
 	break;
-//default:
-//	printf("none of above");
-//	break;
+	//if a variable is binary Default cannot be used
 }
 
 return 0;

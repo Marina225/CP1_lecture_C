@@ -2,6 +2,9 @@
 
 int main(){
 
+//danger for infinite loop
+// harder to debug
+//label indicates from which line forward the execution will be conducted
 
 LOOP: printf("print at LOOP label\n");
 for (int i =0; i<5; i++)
