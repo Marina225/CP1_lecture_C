@@ -41,7 +41,7 @@ for(i=0;i<3;i++){
         };
 };
 printf("max: %i\n", max);
-
+}
 
 return 0;
 }
