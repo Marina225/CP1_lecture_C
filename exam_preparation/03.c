@@ -10,13 +10,16 @@ Enter the quantity: 1
 Kmh: 3.600000
 */
 
+
 #include<stdio.h>
+#define CONVERSION 3.6
+
 double kmTom(int quantity){
-    return (double) quantity/3.6;
+    return (double) quantity/CONVERSION;
 }
 
 double mTokm(int quantity){
-    return (double) quantity*3.6;
+    return (double) quantity*CONVERSION;
 }
 
 int main(){
